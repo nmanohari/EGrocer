@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="description" content="EGrocer|Contact us for all your Online Ethnic grocery shopping needs.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS file 4.5.2-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>EGrocer|Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark cbg-green fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="50" height="50" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler cbg-green" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link px-4 text-body" href="index.html">Home</a>
+                    <a class="nav-item nav-link px-4 text-body" href="about.html">About</a>
+                    <a class="nav-item nav-link px-4 text-body" href="department.html">Departments</a>
+                    <a class="nav-item nav-link px-4 text-body" href="services.html">Services</a>
+                    <a class="nav-item nav-link px-4 text-body" href="persona.html">Persona</a>
+                    <a class="nav-item nav-link active px-4 text-dark ctx-line" href="contact.html">Contact <span
+                            class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid d-flex flex-column my-4 cbg-banner">
+            <div class="header-container pt-3">
+                <h1 class="display-5 text-center">EGROCER</h1>
+                <p class="lead text-center">Shop from your favourite ethnic stores, at the best prices, personalized for
+                    you online!</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container cx-contact">
+        <h2>In case of any query, reach out to us.</h2>
+        <p>1234 Do-gooders Way<br>Toronto, Ontario M2J 1P3<br>Tel: +1 (416) 123-1234<br>Email:
+            <a href="mailto:help@egrocer.com">help@egrocer.com</a>
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Fill in your details below, so that we could contact you</h2>
+        <form class="bg-light p-2">
+            <div class="row">
+                <div class="col">
+                    <label for="exampleFormControlInput1">Given Name</label>
+                    <input type="text" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col">
+                    <label for="exampleFormControlInput1">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last name" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="janedoe@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Criteria</label>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option>Know More</option>
+                    <option>Request Demo</option>
+                    <option>Any other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enquiry</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Type your query here.." required></textarea>
+            </div>
+            <button type="submit" class="btn cbg-button">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="cbg-green ctx-dark py-3 mt-3">
+        <div class="footer-container text-center">
+            <small>&copy; Copyright 2020 | EGrocer</small>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"/>
+<script src="js/popper.min.js"/>
+<script src="js/bootstrap.min.js"/>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
